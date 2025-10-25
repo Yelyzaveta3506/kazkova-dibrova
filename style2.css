@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+  background: #fdfdfd;
+  color: #333;
+}
+
+main {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+}
+
+p {
+  margin: 0.8rem 0;
+}
+
+header {
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+  position: relative;
+}
+
+header h1 {
+  font-size: 2.4rem;
+  margin-bottom: 0.5rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.4rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff5e62;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background: #ffe3df;
+  transform: scale(1.05);
+}
+
+/* ==== СЕКЦІЇ ==== */
+section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 20px;
+  background: #fff9f6;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+}
+
+/* ==== ПОПЕРЕДЖЕННЯ ==== */
+.warning {
+  background: #fff0f0;
+  border-left: 8px solid #e63946;
+}
+
+.warning h2 {
+  color: #e63946;
+}
+
+.highlight {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #c1121f;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* ==== ЗООПАРК ==== */
+.zoo {
+  background: #f8fbff;
+}
+
+.zoo h2 {
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.zoo-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  color: #2c5282;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.card p {
+  font-size: 1rem;
+  color: #444;
+}
+
+/* ==== МОБІЛЬНА АДАПТАЦІЯ ==== */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.8rem;
+  }
+
+  .btn {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+
+  .zoo-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
