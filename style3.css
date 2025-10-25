@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.7;
+  background: #fdf6ff;
+  color: #222;
+}
+
+header.hero {
+  background: linear-gradient(135deg, #dc7276, #dc937f, #daab9e);
+  text-align: center;
+  padding: 3rem 1rem;
+  position: relative;
+  color: white;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+header .hero-content h1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  margin-bottom: 0.5rem;
+}
+
+header .hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: #fffbea;
+}
+
+header .btn {
+  display: inline-block;
+  padding: 0.8rem 1.6rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #ff5e62;
+  background: white;
+  transition: all 0.3s ease;
+}
+
+header .btn:hover {
+  background: #ffe3df;
+  transform: scale(1.05);
+}
+
+/* ==== СЕКЦІЇ ==== */
+main {
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+
+section {
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
+  transition: transform 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+.attractions {
+  background: linear-gradient(135deg, #d3ab73, #fcb69f);
+}
+
+.sculptures {
+  background: linear-gradient(135deg, #9cc7e1, #e2ebf0);
+}
+
+.interactive {
+  background: linear-gradient(135deg, #f6d365, #fda085);
+}
+
+.cafe {
+  background: linear-gradient(135deg, #87afee, #c2e9fb);
+}
+
+.memory {
+  background: linear-gradient(135deg, #d4fc79, #96e6a1);
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+}
+
+ul {
+  padding-left: 25px;
+  margin-bottom: 1rem;
+}
+
+ul li {
+  margin: 0.6rem 0;
+  font-weight: bold;
+  color: #222;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: linear-gradient(90deg, #fad0c4, #ffd1ff);
+  color: #222;
+  font-weight: bold;
+  font-size: 1.1rem;
+  border-top: 4px solid #ff5e62;
+}
